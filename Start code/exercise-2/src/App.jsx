@@ -13,7 +13,7 @@ export const myData = {
 };
 
 // TODO Edit the User component code to be able to display DIFFERENT users !
-export function User() {
+export function User({ firstName,  lastName, title}) {
   return (
     <div id="user" data-testid="user">
       <h2>{`${firstName} ${lastName}`}</h2>
